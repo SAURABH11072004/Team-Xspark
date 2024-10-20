@@ -34,7 +34,7 @@ The chatbot is designed to assist students, faculty, and prospective students by
 
 
 The chatbot is deployed and can be accessed at the following link:  
-[Deployed Solution](https://cdn.botpress.cloud/webchat/v2.2/shareable.html?configUrl=https://files.bpcontent.cloud/2024/10/20/06/20241020065035-OG3E73UG.json)
+[Deployed Solution](https://cdn.botpress.cloud/webchat/v2.2/shareable.html?configUrl=https://files.bpcontent.cloud/2024/10/20/11/20241020114331-SFM7JAJU.json)
 
 ## Video URL:
 A demo video showcasing the chatbot in action can be viewed here:  
