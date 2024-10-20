@@ -31,10 +31,10 @@ The chatbot is designed to assist students, faculty, and prospective students by
 ![Screenshot 2024-10-20 195547](https://github.com/user-attachments/assets/e5919a64-3859-45fe-bd65-f02ded469fbd)
 
 
-## Deployed URL:![Uploading Screenshot 2024-10-20 195547.png…]()
+
 
 The chatbot is deployed and can be accessed at the following link:  
-[Deployed Solution](https://drive.google.com/drive/folders/1EeP97ghh-AMtpyh9lQ64rJiHbqMhZGtc?dmr=1&ec=wgc-drive-hero-goto)
+[Deployed Solution](https://cdn.botpress.cloud/webchat/v2.2/shareable.html?configUrl=https://files.bpcontent.cloud/2024/10/20/06/20241020065035-OG3E73UG.json)
 
 ## Video URL:
 A demo video showcasing the chatbot in action can be viewed here:  
