@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PCCOE AI Chatbot</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <h1>Ask the PCCOE AI Chatbot!</h1>
+    <div id="chatbox">
+        <input type="text" id="userQuery" placeholder="Ask me anything..." autofocus>
+        <button onclick="sendQuery()">Send</button>
+        <div id="response"></div>
+    </div>
+
+    <script>
+        function sendQuery() {
+            var query = document.getElementById("userQuery").value;
+            fetch('/chat', {
+                method: 'POST',
+                headers: {'Content-Type': 'application/json'},
+                body: JSON.stringify({query: query})
+            }).then(response => response.json())
+              .then(data => {
+                  document.getElementById("response").innerText = data.response;
+              });
+        }
+    </script>
+</body>
+</html>
