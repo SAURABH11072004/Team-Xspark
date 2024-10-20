@@ -1,5 +1,14 @@
 # Mock database with predefined answers for common queries
 mock_db = {
+    "what is pccoe":"PCCOE, or Pimpri Chinchwad College of Engineering, is a private autonomous engineering college located in Pune, India. Established in 1999, it offers a variety of undergraduate and postgraduate courses in engineering disciplines. The college is affiliated with Savitribai Phule Pune University (SPPU) and is accredited by the National Board of Accreditation (NBA) and the National Assessment and Accreditation Council (NAAC).
+
+PCCOE is known for its state-of-the-art infrastructure, competent faculty, and opportunities for research, skill development, and placements. It also participates in various technical events and competitions.
+
+For more detailed information, you can visit their official website.
+
+If you have any more questions or need further assistance, feel free to ask!"
+
+
     "admissions": "I found some information about the admissions process at Pimpri Chinchwad College of Engineering (PCCOE). Here are some key details:
 
 Undergraduate and Postgraduate Programs: PCCOE offers various programs including B.Tech, M.Tech, and MCA. Each program has specific eligibility criteria and admission processes.
