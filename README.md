@@ -46,9 +46,7 @@ A simple HTML page can be added for users to interact with the chatbot in real-t
 7. Deployment:
 To run the chatbot locally, use the following command:
 
-bash
-flask run
-The chatbot will be available at http://127.0.0.1:5000, where users can interact with it.
+
 
 8. Extensions (Optional)
 Add features like database logging, analytics, multi-language support, or integration with PCCOE's actual data sources for enhanced functionality.
