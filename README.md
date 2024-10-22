@@ -1,51 +1,55 @@
-## Team Name:Team Xspark 
+## Team Name: Team Xspark 
 
-## Team ID:21
+## Team ID: 21
 
-
-## Problem Statement Title:Design and Develop an AI-Powered Chatbot for PCCOE
-
+## Problem Statement Title: AI-Powered Chatbot for PCCOE
 
 ## Description:
-The PCCOE AI Chatbot project aims to streamline the query-handling process for Pimpri Chinchwad College of Engineering (PCCOE) by providing an AI-driven chatbot system. This chatbot uses **Flask** for its web interface and **Natural Language Processing (NLP)** for intelligent query handling. By leveraging a **mock database**, the chatbot can provide quick and accurate information related to PCCOE, including details on admissions, scholarships, and courses. If the information is not available in the database, an **NLP-based fallback system** generates appropriate responses, ensuring the user query is handled efficiently.
+The **PCCOE BOT** is an AI-powered chatbot designed to assist students, faculty, and prospective students of Pimpri Chinchwad College of Engineering (PCCOE) with quick and efficient query handling. Built with a web interface using **HTML, CSS**, and integrated with **Botpress**, the chatbot allows users to ask questions related to the college, admissions, and other details. The chatbot's intelligent query-handling capabilities streamline user interactions, providing fast responses to FAQs, thus reducing the need for manual support.
 
-The chatbot is designed to assist students, faculty, and prospective students by addressing frequently asked questions (FAQs) about the college, making the process more user-friendly and reducing manual efforts in responding to repetitive inquiries.
+This chatbot serves as a convenient tool for accessing PCCOE-related information, providing a user-friendly experience with a visually appealing interface.
 
 ## Features:
-- **Web-Based Interface**: A simple and intuitive interface where users can interact with the chatbot via a web browser.
-- **NLP-Based Query Processing**: Utilizes NLP models to interpret user queries and provide relevant responses.
-- **Mock Database**: Simulates a database containing basic information about PCCOE, such as admissions procedures, available scholarships, and offered courses.
-- **Fallback Mechanism**: For queries not directly handled by the mock database, the chatbot uses an NLP fallback to generate meaningful answers.
-- **Extensibility**: Built with a modular architecture, the chatbot can be extended to integrate with actual PCCOE databases or include additional features like multi-language support and data logging.
+- **Web-Based Interface**: Accessible via any modern web browser with a visually appealing design.
+- **Botpress Integration**: Leveraged Botpress for handling user queries through a robust conversational engine.
+- **Custom Styling**: Uses **CSS** for an attractive layout and **Google Fonts** for a modern look.
+- **API Ready**: Ready for integration with dynamic APIs to handle more complex queries in the future.
+- **Responsive Design**: Optimized for both desktop and mobile devices.
 
 ## Tech Stack:
-- **Flask**: A lightweight and flexible Python web framework for handling HTTP requests, user input, and routing.
-- **Transformers (NLP)**: Provides powerful pre-trained models to process and understand natural language queries.
-- **Mock Database**: A simulated in-memory database storing basic college-related information.
-- **Rasa**: An open-source machine learning framework for automated text and voice-based conversations, used for advanced chatbot conversation handling and dialogue flow.
+- **HTML & CSS**: Provides the front-end layout and design for the web page.
+- **Botpress**: The core chatbot engine for managing conversations.
+- **FontAwesome**: Icons are used to enhance the visual appeal.
+- **Google Fonts**: Stylish font choices for a modern interface.
+
+## BOTPRESS_CONCEPT:
+![Screenshot 2024-10-22 193302](https://github.com/user-attachments/assets/03f73420-1cdf-4127-81b6-d092a407a9b5)
+
+
 
 ## Screenshots:
 ### Chatbot Interface:
-![Screenshot 2024-10-20 195421](https://github.com/user-attachments/assets/68af7364-135b-4034-bbd5-a33681f29244)
-![Screenshot 2024-10-20 195502](https://github.com/user-attachments/assets/db6f3bb6-7716-4a5c-8a27-cb6cb2f7ff29)
-![Screenshot 2024-10-20 195547](https://github.com/user-attachments/assets/e5919a64-3859-45fe-bd65-f02ded469fbd)
+![Chatbot Interaction Screenshot](https://github.com/user-attachments/assets/6f5fe022-5dcc-4233-a5dc-f7fb55abfc7d)
+![Botpress Chat Preview](https://github.com/user-attachments/assets/ff99888d-8741-4688-84f4-d60ffb265816)
+![Web UI](https://github.com/user-attachments/assets/4404eab0-0b71-43d7-9143-eb9e15e0818b)
+![Mobile-Optimized Chat](https://github.com/user-attachments/assets/e098a6ca-b8b3-478d-82f0-32a56e49ab54)
+![Quick Responses](https://github.com/user-attachments/assets/88be928e-c585-4187-9c6e-68fe33723e22)
+![Fallback Response](https://github.com/user-attachments/assets/e68dc640-a7e6-496e-9ec1-02f127edc416)
 
-
-
-
-The chatbot is deployed and can be accessed at the following link:  
-[Deployed Solution](https://cdn.botpress.cloud/webchat/v2.2/shareable.html?configUrl=https://files.bpcontent.cloud/2024/10/20/11/20241020114331-SFM7JAJU.json)
+## Deployed Solution:
+The PCCOE BOT is currently live and accessible at the following link:  
+[PCCOE BOT Webpage](https://pccoepuneakurdibot.tiiny.site/)
 
 ## Video URL:
-A demo video showcasing the chatbot in action can be viewed here:  
+Check out a demo video showcasing the working PCCOE BOT here:  
 [Demo Video](https://drive.google.com/drive/folders/1EeP97ghh-AMtpyh9lQ64rJiHbqMhZGtc?dmr=1&ec=wgc-drive-hero-goto)
 
 ## Run Commands:
-To set up and run the chatbot locally, follow these steps:
-   ```bash
-pip install flask transformers
-pip install flask rasa
-pip install rasa
-python app.py
+To set up and run the PCCOE BOT locally for development purposes, follow these steps:
 
-  
+```bash
+# Install the necessary libraries
+pip install flask
+
+# Install Botpress dependencies
+npm install botpress
