@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    position: relative; /* Required for the pseudo-element positioning */
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden; /* Hide scrollbars */
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('image.png'); /* Your background image */
+    background-size: cover; /* Makes the background cover the whole viewport */
+    background-position: center; /* Centers the background image */
+    opacity: 0.9; /* Adjust the opacity (0 is fully transparent, 1 is fully opaque) */
+    z-index: -1; /* Ensure it stays behind content */
+}
+
+
+.chat-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 450px;
+    height: 600px;
+    background-color: #0073ff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden; /* Hide any internal overflow */
+}
+
+/* Chat Header */
+.chat-header {
+    background-color: #0073ff;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.chat-header img {
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.chat-header i {
+    margin-right: 10px;
+}
+
+/* Chat Box */
+.chat-box {
+    height: 100%;
+    overflow-y: hidden; /* Remove internal scrollbar */
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+/* Hide the Botpress Branding */
+.bpw-botpress-webchat-branding {
+    display: none !important;
+}
+
+/* Remove additional input box */
+.chat-input-container {
+    display: none;
+}
+
+/* Animation for the Chat Box */
+.chat-container {
+    animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .chat-container {
+        width: 100%;
+        margin: 0;
+        border-radius: 0;
+    }
+}
+
+/* Hide the Botpress Branding */
+.bpw-botpress-webchat-branding,
+.bpw-brand {
+    display: none !important;
+}
+
+/* Hide the lower input box if needed */
+.chat-input-container,
+.bpw-input-container {
+    display: none !important;
+}
+
+/* Ensure iframe is fully responsive */
+iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+
